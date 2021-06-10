@@ -1,0 +1,30 @@
+Documentation for LDDS
+----------------------
+
+Files for generating the documentation at
+https://ldds.readthedocs.io/en/latest/. To generate the full web page:
+
+    make html
+
+To build the pdf manual, you should first make the latex docs:
+
+    make latex
+
+and then:
+
+   cd _build/latex
+   make all-pdf
+
+
+Check the generated doc locally
+-------------------------------
+
+First of, generate the html documentation::
+
+    make html
+
+This should create a file _build/html/index.html that can be
+opened in a browser. 
+
+
+

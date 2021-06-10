@@ -1,0 +1,2 @@
+
+/Users/OptimusPrime/opt/anaconda3/bin/pandoc +RTS -K512m -RTS paper.md --to latex --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output paper.pdf --template /Users/OptimusPrime/Library/R/3.2/library/rmarkdown/rmd/latex/default-1.17.0.2.tex --highlight-style tango --pdf-engine /Library/TeX/texbin/pdflatex --variable graphics=yes --variable 'geometry:margin=1in' --bibliography paper.bib --filter /Users/OptimusPrime/opt/anaconda3/bin/pandoc-citeproc 
